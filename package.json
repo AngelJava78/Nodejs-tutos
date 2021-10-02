@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/AngelJava78/Nodejs-tutos#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "yargs": "^17.2.1"
   }
 }
