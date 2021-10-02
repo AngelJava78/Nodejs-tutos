@@ -4,7 +4,26 @@ module.exports = {
     },
     subtract: function (a, b) {
         return a - b;
-    }
+    },
+    multiply: (a, b) => a * b,
+    divide: (a, b) => a - b,
+    min: (a, b) => {
+        if (a < b) {
+            return a;
+        } else {
+            return b;
+        }
+    },
+    max: (a, b) => {
+        if (a > b) {
+            return a;
+        } else {
+            return b;
+        }
+    },
+    avg: (a, b) => (a + b) / 2,
+
+
 }
 
 function sayHello() {
