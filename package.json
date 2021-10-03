@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon ./debug/app.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/AngelJava78/Nodejs-tutos#readme",
   "dependencies": {
     "lodash": "^4.17.21",
-    "yargs": "^17.2.1"
+    "yargs": "^17.2.1",
+    "yarn": "^1.22.15"
   }
 }
